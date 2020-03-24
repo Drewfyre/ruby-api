@@ -6,7 +6,7 @@ It also uses DataMapper to host an in memory sqlite database for storing the use
 
 # Usage
 
-Clone the repository via `git clone`.
+Clone the repository via `git clone https://github.com/Drewfyre/ruby-api.git`.
 
 To start the server use `rackup` it will be available per default at `localhost:9292`.
 
