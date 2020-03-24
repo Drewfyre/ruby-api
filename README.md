@@ -1,6 +1,6 @@
 # ruby-api
 This is a simple api written in ruby using Sinatra as a web framework.
-It includes a simple api for adding new users and getting information about existing users via the `/users/` route.
+It includes methods for adding new users and getting information about existing users via the `/users/` route.
 
 It also uses DataMapper to host an in memory sqlite database for storing the users.
 
