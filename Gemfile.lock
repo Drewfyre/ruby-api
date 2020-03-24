@@ -61,10 +61,13 @@ GEM
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    power_assert (1.1.7)
     public_suffix (4.0.3)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rake (13.0.1)
     ruby2_keywords (0.0.2)
     sinatra (2.0.8.1)
@@ -81,6 +84,8 @@ GEM
       tilt (~> 2.0)
     sqlite3 (1.4.2)
     stringex (1.5.1)
+    test-unit (3.3.5)
+      power_assert
     tilt (2.0.10)
     uuidtools (2.1.5)
 
@@ -95,10 +100,12 @@ DEPENDENCIES
   dm-sqlite-adapter
   dm-timestamps
   dm-validations
+  rack-test
   rake
   sinatra
   sinatra-contrib
   sqlite3
+  test-unit
 
 BUNDLED WITH
    2.1.4
